@@ -1,4 +1,4 @@
-# H2 Lab Typescript
+# H2 Lab Typescript :heavy_check_mark:
 In deze lab bouwen en testen we onze eerste typescript klasse. Typescript is taal die gebruikt wordt binnen Angular projecten. Gegeven is deze repo. Hierin staat een Angular project. **Navigeer naar deze folder via de CLI** en voer volgend commando uit: ```npm install```
 
 Bovenstaand commando installeert alle dependencies die nodig zijn om het project uit te voeren. Vervolgens voer je, nog steeds in deze folder, het commando ```ng serve -o``` uit. Hiermee zal de applicatie gestart worden en gaat er automatisch een browser open. Moest dit laatste niet het geval zijn, surf je naar http://localhost:4200. Je krijgt een webpagina met een ```H1```tag in waarin de tekst "hallo wereld" staat. Bij elke aanpassing in de code zal de browser automatisch refreshen.
