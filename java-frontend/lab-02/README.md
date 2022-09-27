@@ -1,4 +1,4 @@
-# H3 Lab Components
+# H3 Lab Components :heavy_check_mark:
 In deze lab bouwen en testen we onze eerste components. Angular is een component based framework. Component based werken wordt ook gebruikt in frameworks zoals React, VueJS, Flutter, ... Gegeven is deze repo. Hierin staat een Angular project met reeds een confessions klasse. **Navigeer naar deze folder via de CLI** en voer volgend commando uit: ```npm install```
  
 Vervolgens voer je, nog steeds in deze folder, het commando ```ng serve -o``` uit. Hiermee zal de applicatie gestart worden en gaat er automatisch een browser open. Moest dit laatste niet het geval zijn, surf je naar http://localhost:4200. Bij elke aanpassing in de code zal de browser automatisch refreshen.
