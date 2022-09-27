@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Confession} from "../models/confession.model";
+import {Confession} from "../../models/confession.model";
 
 @Component({
   selector: 'app-confession-item',
