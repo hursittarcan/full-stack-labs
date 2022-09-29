@@ -1,0 +1,17 @@
+
+*{
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    
+}
+
+textarea{
+    width: 400px;
+    height: 400px;
+}
+
+input{
+    width: 400px;
+}
+

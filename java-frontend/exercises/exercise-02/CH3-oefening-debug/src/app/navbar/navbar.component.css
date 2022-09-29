@@ -1,0 +1,14 @@
+nav{
+    height: 60px;
+    padding: 18px;
+    background-color: #000000;
+    text-align: right;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.33em;
+    
+    margin: 0 10px;
+}
