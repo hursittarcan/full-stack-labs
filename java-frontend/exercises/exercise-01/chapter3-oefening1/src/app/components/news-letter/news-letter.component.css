@@ -1,0 +1,15 @@
+div {
+  background: purple;
+  height: 20px;
+  align-content: center;
+  padding: 10px;
+}
+
+input {
+  margin-left: 10px;
+  background: red;
+}
+
+.x {
+  background: orange;
+}
