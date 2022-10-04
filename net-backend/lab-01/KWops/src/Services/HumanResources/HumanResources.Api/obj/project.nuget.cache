@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yf3mFoFm9utSR+hQPS14a62VqTWVDZfolyZ6WKEb71bd6iaNzRw5K3FeQxQt1z6K1wR4mqz7SpLEDTL1b06qWA==",
+  "dgSpecHash": "lSe9Ej8HoSHOt3lYtddxVPPzqVEfqylD6lhIZgZWSOtejaXnVeQwWrY4axjBvr7u/lcHj06Aepa3VCB0ZG5gdw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-01\\KWops\\src\\Services\\HumanResources\\HumanResources.Api\\HumanResources.Api.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,7 @@
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

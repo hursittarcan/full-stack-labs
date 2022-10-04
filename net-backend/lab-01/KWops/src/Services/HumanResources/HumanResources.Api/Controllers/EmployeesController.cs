@@ -15,7 +15,7 @@ namespace HumanResources.Api.Controllers
             _employeeRepository = employeeRepository;
         }
 
-        [HttpGet("/{number}")]
+        [HttpGet("{number}")]
         public IActionResult GetEmployee(string number)
         {
             var result = _employeeRepository.GetByNumberAsync(number);
