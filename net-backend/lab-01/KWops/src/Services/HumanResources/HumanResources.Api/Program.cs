@@ -23,7 +23,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<HumanResourcesDbInitializer>();
+
 var app = builder.Build();
+
+IServiceScope startUpScope = app.Services.CreateScope();
+var initializer = startUpScope.ServiceProvider.GetRequiredService<HumanResourcesDbInitializer>();
+initializer.MigrateDatabase();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
