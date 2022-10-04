@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HumanResources", "HumanReso
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Api", "Services\HumanResources\HumanResources.Api\HumanResources.Api.csproj", "{4C580DC8-66E6-4573-AD91-278B8A72233C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Domain", "Services\HumanResources\HumanResources.Domain\HumanResources.Domain.csproj", "{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{4C580DC8-66E6-4573-AD91-278B8A72233C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C580DC8-66E6-4573-AD91-278B8A72233C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C580DC8-66E6-4573-AD91-278B8A72233C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +32,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8916352B-BC31-4A4B-934B-53366126E88E} = {ABD4F72A-CDFB-497B-B2E1-663AE246BB2D}
 		{4C580DC8-66E6-4573-AD91-278B8A72233C} = {8916352B-BC31-4A4B-934B-53366126E88E}
+		{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841} = {8916352B-BC31-4A4B-934B-53366126E88E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E5DD1A0-09FC-426C-A8FA-74103E6B9933}
