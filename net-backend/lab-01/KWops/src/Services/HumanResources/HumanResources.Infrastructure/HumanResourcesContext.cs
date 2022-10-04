@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using HumanResources.Domain;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,9 @@ namespace HumanResources.Infrastructure
     internal class HumanResourcesContext : DbContext
     {
         public DbSet<Employee> Employees { get; set; }
+
+        public HumanResourcesContext(DbContextOptions options)
+            : base(options) { }
     }
 }
         

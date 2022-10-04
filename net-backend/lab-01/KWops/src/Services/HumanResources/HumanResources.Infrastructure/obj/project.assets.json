@@ -598,6 +598,19 @@
           }
         }
       },
+      "HumanResources.AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HumanResources.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HumanResources.AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HumanResources.AppLogic.dll": {}
+        }
+      },
       "HumanResources.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1773,6 +1786,11 @@
         "version.txt"
       ]
     },
+    "HumanResources.AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../HumanResources.AppLogic/HumanResources.AppLogic.csproj",
+      "msbuildProject": "../HumanResources.AppLogic/HumanResources.AppLogic.csproj"
+    },
     "HumanResources.Domain/1.0.0": {
       "type": "project",
       "path": "../HumanResources.Domain/HumanResources.Domain.csproj",
@@ -1781,6 +1799,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "HumanResources.AppLogic >= 1.0.0",
       "HumanResources.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.9"
     ]
@@ -1812,6 +1831,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-01\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-01\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj"
+            },
             "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-01\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj": {
               "projectPath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-01\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj"
             }
