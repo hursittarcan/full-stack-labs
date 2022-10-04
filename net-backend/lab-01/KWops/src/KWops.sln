@@ -7,13 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HumanResources", "HumanResources", "{8916352B-BC31-4A4B-934B-53366126E88E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Api", "Services\HumanResources\HumanResources.Api\HumanResources.Api.csproj", "{4C580DC8-66E6-4573-AD91-278B8A72233C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.Api", "Services\HumanResources\HumanResources.Api\HumanResources.Api.csproj", "{4C580DC8-66E6-4573-AD91-278B8A72233C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Domain", "Services\HumanResources\HumanResources.Domain\HumanResources.Domain.csproj", "{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.Domain", "Services\HumanResources\HumanResources.Domain\HumanResources.Domain.csproj", "{FB4A6E95-CA6B-4BA1-89B5-EC5F79F45841}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.AppLogic", "Services\HumanResources\HumanResources.AppLogic\HumanResources.AppLogic.csproj", "{C430355E-63DA-4FA1-8864-1EED6D4101BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.AppLogic", "Services\HumanResources\HumanResources.AppLogic\HumanResources.AppLogic.csproj", "{C430355E-63DA-4FA1-8864-1EED6D4101BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Infrastructure", "Services\HumanResources\HumanResources.Infrastructure\HumanResources.Infrastructure.csproj", "{FFCD8655-4D66-455F-810A-B36BCD2DEBBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.Infrastructure", "Services\HumanResources\HumanResources.Infrastructure\HumanResources.Infrastructure.csproj", "{FFCD8655-4D66-455F-810A-B36BCD2DEBBF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8631BD8A-7844-4E00-B585-A7C66D082842}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{FFCD8655-4D66-455F-810A-B36BCD2DEBBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFCD8655-4D66-455F-810A-B36BCD2DEBBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFCD8655-4D66-455F-810A-B36BCD2DEBBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8631BD8A-7844-4E00-B585-A7C66D082842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8631BD8A-7844-4E00-B585-A7C66D082842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8631BD8A-7844-4E00-B585-A7C66D082842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8631BD8A-7844-4E00-B585-A7C66D082842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

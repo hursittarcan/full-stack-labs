@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  humanresources.api:
+    image: ${DOCKER_REGISTRY-}humanresourcesapi
+    build:
+      context: .
+      dockerfile: Services/HumanResources/HumanResources.Api/Dockerfile
