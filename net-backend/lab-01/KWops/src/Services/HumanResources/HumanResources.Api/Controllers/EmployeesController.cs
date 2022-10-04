@@ -16,17 +16,16 @@ namespace HumanResources.Api.Controllers
         }
 
         [HttpGet("{number}")]
-        public IActionResult GetEmployee(string number)
+        public async Task<IActionResult> GetEmployee(string number)
         {
-            var result = _employeeRepository.GetByNumberAsync(number);
+            var result = await _employeeRepository.GetByNumberAsync(number);
             return new JsonResult(result); 
         }
 
         [HttpPost]
-        public IActionResult AddEmployee(Employee employee)
+        public async void AddEmployee(Employee employee)
         {
-            _employeeRepository.AddAsync(employee);
-            return new JsonResult(true);
+            await _employeeRepository.AddAsync(employee);
         }
     }
 }
