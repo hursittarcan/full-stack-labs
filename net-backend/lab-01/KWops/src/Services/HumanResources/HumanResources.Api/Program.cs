@@ -1,5 +1,6 @@
-using HumanResources.Infrastructure;
+using HumanResources.AppLogic;
 using Microsoft.EntityFrameworkCore;
+using HumanResources.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,8 +16,10 @@ builder.Services.AddDbContext<HumanResourcesContext>(options =>
 #endif
 });
 
+builder.Services.AddScoped<IEmployeeRepository, EmployeeDbRepository>();
+
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Learn more about configuring Swaggetory, EmployeeDbRepositorys();pnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
