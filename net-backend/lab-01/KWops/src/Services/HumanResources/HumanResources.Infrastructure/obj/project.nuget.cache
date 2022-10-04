@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aWsAmvjRJtGqpI41fL0un/lnLmNGxul5M5yyrshi2TdIYDFmX6OCpbO+bXVjzSItPxohK4RSvczP3CfWjTWPDg==",
+  "dgSpecHash": "Qub+cOBJEGGOp6fzzHUbR+ix5sACfDXewkvoBFgjZLhGObZniRxiubK66fRvR5jGMpMucCOnretktvF/tTIbbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-01\\KWops\\src\\Services\\HumanResources\\HumanResources.Infrastructure\\HumanResources.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
