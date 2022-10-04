@@ -9,7 +9,13 @@ ConfigurationManager configuration = builder.Configuration;
 builder.Services.AddDbContext<HumanResourcesContext>(options =>
 {
     string connectionString = configuration["ConnectionString"];
-    options.UseSqlServer(connectionString);
+    options.UseSqlServer(connectionString, sqlOptions =>
+    {
+        sqlOptions.EnableRetryOnFailure(
+            maxRetryCount: 15,
+            maxRetryDelay: TimeSpan.FromSeconds(30),
+            errorNumbersToAdd: null);
+    });
 #if DEBUG
     options.UseLoggerFactory(LoggerFactory.Create(loggingBuilder => loggingBuilder.AddDebug()));
     options.EnableSensitiveDataLogging();

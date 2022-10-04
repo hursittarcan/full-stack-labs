@@ -65,3 +65,4 @@ C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.pdb
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.genruntimeconfig.cache
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\ref\HumanResources.Api.dll
+C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\Polly.dll
