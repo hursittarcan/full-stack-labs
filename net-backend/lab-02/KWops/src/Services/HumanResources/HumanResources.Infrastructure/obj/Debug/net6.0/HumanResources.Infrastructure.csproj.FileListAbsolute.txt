@@ -15,3 +15,11 @@ C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\refint\HumanResources.Infrastructure.dll
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.pdb
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\ref\HumanResources.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\refint\HumanResources.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Infrastructure\obj\Debug\net6.0\HumanResources.Infrastructure.pdb

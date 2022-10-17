@@ -66,3 +66,13 @@ C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.genruntimeconfig.cache
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\ref\HumanResources.Api.dll
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\Polly.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\refint\HumanResources.Api.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.pdb

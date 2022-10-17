@@ -1,6 +1,7 @@
 using HumanResources.AppLogic;
 using Microsoft.EntityFrameworkCore;
 using HumanResources.Infrastructure;
+using HumanResources.Domain;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<HumanResourcesDbInitializer>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeDbRepository>();
+builder.Services.AddScoped<HumanResourcesDbInitializer>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddSingleton<IEmployeeFactory, Employee.Factory>();
 
 var app = builder.Build();
 

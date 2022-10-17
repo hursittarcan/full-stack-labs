@@ -10,3 +10,11 @@ C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\refint\HumanResources.Domain.dll
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.pdb
 C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\ref\HumanResources.Domain.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\refint\HumanResources.Domain.dll
+C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Domain\obj\Debug\net6.0\HumanResources.Domain.pdb

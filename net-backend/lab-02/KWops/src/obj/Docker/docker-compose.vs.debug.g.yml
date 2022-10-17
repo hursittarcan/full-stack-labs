@@ -3,7 +3,7 @@ version: '3.4'
 services:
   humanresources.api:
     image: humanresourcesapi:dev
-    container_name: HumanResources.Api_1
+    container_name: HumanResources.Api
     build:
       target: base
       labels:
@@ -14,8 +14,8 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src\Services\HumanResources\HumanResources.Api:/app
-      - C:\Users\Hursit\Desktop\full-stack\full-stack-labs\net-backend\lab-01\KWops\src:/src
+      - C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api:/app
+      - C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src:/src
       - C:\Users\Hursit\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\Hursit\.nuget\packages\:/root/.nuget/packages:ro
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
@@ -24,7 +24,7 @@ services:
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/net6.0/HumanResources.Api.dll\""
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/src/../../../../../../full-stack/full-stack-labs/net-backend/lab-01/KWops/src/Services/HumanResources/HumanResources.Api/bin/Debug/net6.0/HumanResources.Api.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
     tty: true

@@ -11,5 +11,6 @@ namespace HumanResources.AppLogic
     {
         Task AddAsync(IEmployee newEmployee);
         Task<IEmployee?> GetByNumberAsync(string number);
+        Task<int> GetNumberOfStartersOnAsync(DateTime startDate);
     }
 }
