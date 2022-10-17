@@ -1,4 +1,5 @@
-﻿using HumanResources.AppLogic;
+﻿using HumanResources.Api.Models;
+using HumanResources.AppLogic;
 using HumanResources.Domain;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,23 +10,26 @@ namespace HumanResources.Api.Controllers
     public class EmployeesController : Controller
     {
         private readonly IEmployeeRepository _employeeRepository;
+        private readonly IEmployeeService _employeeService;
 
-        public EmployeesController(IEmployeeRepository employeeRepository)
+        public EmployeesController(IEmployeeRepository employeeRepository, IEmployeeService employeeService)
         {
             _employeeRepository = employeeRepository;
+            _employeeService = employeeService;
         }
 
         [HttpGet("{number}")]
-        public async Task<IActionResult> GetEmployee(string number)
+        public async Task<IActionResult> GetByNumber(string number)
         {
-            var result = await _employeeRepository.GetByNumberAsync(number);
-            return new JsonResult(result); 
+            IEmployee? employee = await _employeeRepository.GetByNumberAsync(number);
+            return employee == null ? NotFound() : Ok(employee);
         }
 
         [HttpPost]
-        public async void AddEmployee(IEmployee employee)
+        public async Task<IActionResult> Add(EmployeeCreateModel model)
         {
-            await _employeeRepository.AddAsync(employee);
+            IEmployee hiredEmployee = await _employeeService.HireNewAsync(model.LastName, model.FirstName, model.StartDate);
+            return CreatedAtAction(nameof(GetByNumber), new { number = hiredEmployee.Number }, hiredEmployee);
         }
     }
 }

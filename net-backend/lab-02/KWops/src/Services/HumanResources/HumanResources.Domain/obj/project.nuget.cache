@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3TKUytiJ1bbFXglxShoBpgA1xQL0lYNGF84rey5cTHT1OKsdilZw3nl60Kvqq/dtEnmZ/Vjt6KlrDcj60DsQlw==",
+  "dgSpecHash": "5Wv+Ayt6KWyhwRVYPv/+johQevz6EE1mgUT1jSMJDsmXfO+gNRjpwmeqJuXQN5fA7T6nC17JLC7maFvw9nfDkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS-PXL\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   humanresources.api:
-    container_name: HumanResources.Api
+    container_name: HumanResources.Api_1
     build:
       labels:
         com.microsoft.created-by: "visual-studio"

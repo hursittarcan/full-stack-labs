@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QyBPzzSarwXSDPo8bCa99JDPIIcZ/iGDAJUOIaU1qAAAT+quVHisqXMnm7kKmc+6/AJuVGS+8IiMzzyrL8g08Q==",
+  "dgSpecHash": "BBwj1dGq5DXOKNWO9hbT4467e1OqQgrSC7EgjN2EbkeMapxMp81T28hd3Osv0qitt4wNviwuvzxwTOqVmDb9tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS-PXL\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Api\\HumanResources.Api.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Api\\HumanResources.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
