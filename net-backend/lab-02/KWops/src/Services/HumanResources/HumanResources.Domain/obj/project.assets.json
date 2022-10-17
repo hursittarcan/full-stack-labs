@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Hursit\\Desktop\\LABS-PXL\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj",
       "projectName": "HumanResources.Domain",
-      "projectPath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj",
+      "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS-PXL\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj",
       "packagesPath": "C:\\Users\\Hursit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Hursit\\Desktop\\LABS-PXL\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hursit\\AppData\\Roaming\\NuGet\\NuGet.Config",

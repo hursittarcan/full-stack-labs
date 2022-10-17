@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z3ocPMLUxBfku112ihwJJHDowMcMmT+0cuaD+VL1PNaIM0vi3orB0agll/xFv376+ydVVkx/K0WACt5PA7+d1w==",
+  "dgSpecHash": "XoQ8efNRzA2EHBtAfnWQlfNc/0kZ6ZDPzNCk/4iQFwYedhYiowATIi6bZ8FW1j9iHYyq7zMIGY5oMyJc35rwxg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\full-stack\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS-PXL\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
