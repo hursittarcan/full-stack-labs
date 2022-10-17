@@ -106,5 +106,20 @@ namespace HumanResources.Api.Tests
             Assert.That(result, Is.Not.Null);
             _employeeRepositoryMock.Verify(repo => repo.GetByNumberAsync(employeeNumber), Times.Once);
         }
+
+        [Test]
+        public void Dismiss_ShouldUseServiceAndReturnOk()
+        {
+            //Arrange
+            EmployeeNumber employeeNumber = new EmployeeNumber(DateTime.Now, 1);
+            bool withNotice = Random.NextBool();
+
+            //Act
+            var result = _controller.Dismiss(employeeNumber, withNotice).Result as OkResult;
+
+            //Assert
+            Assert.That(result, Is.Not.Null);
+            _employeeServiceMock.Verify(service => service.DismissAsync(employeeNumber, withNotice), Times.Once);
+        }
     }
 }
