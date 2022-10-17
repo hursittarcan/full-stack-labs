@@ -36,7 +36,7 @@ builder.Services.AddScoped<IEmployeeRepository, EmployeeDbRepository>();
 builder.Services.AddScoped<HumanResourcesDbInitializer>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddSingleton<IEmployeeFactory, Employee.Factory>();
-
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddSingleton(provider => new ApplicationExceptionFilterAttribute(provider.GetRequiredService<ILogger<ApplicationExceptionFilterAttribute>>()));
 builder.Services.AddControllers(options =>
 {
