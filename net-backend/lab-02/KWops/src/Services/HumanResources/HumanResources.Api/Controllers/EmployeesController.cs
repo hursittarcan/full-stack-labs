@@ -35,4 +35,11 @@ public class EmployeesController : ControllerBase
         var outputModel = _mapper.Map<EmployeeDetailModel>(hiredEmployee);
         return CreatedAtAction(nameof(GetByNumber), new { number = outputModel.Number }, outputModel);
     }
+
+    [HttpPost("{number}/dismiss")]
+    public async Task<IActionResult> Dismiss(string number, [FromQuery] bool withNotice = true)
+    {
+        await _employeeService.DismissAsync(number, withNotice);
+        return Ok();
+    }
 }
