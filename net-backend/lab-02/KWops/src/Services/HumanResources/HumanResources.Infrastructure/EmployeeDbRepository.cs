@@ -21,7 +21,7 @@ namespace HumanResources.Infrastructure
         public async Task AddAsync(IEmployee newEmployee)
         {
             await _humanResourcesContext.AddAsync(newEmployee);
-            _humanResourcesContext.SaveChangesAsync();
+            await _humanResourcesContext.SaveChangesAsync();
         }
 
         public async Task<int> GetNumberOfStartersOnAsync(DateTime startDate)
@@ -29,7 +29,7 @@ namespace HumanResources.Infrastructure
             return await _humanResourcesContext.Employees.CountAsync(x => x.StartDate == startDate);
         }
 
-        async Task<IEmployee?> IEmployeeRepository.GetByNumberAsync(string number)
+        async Task<IEmployee?> IEmployeeRepository.GetByNumberAsync(EmployeeNumber number)
         {
             return await _humanResourcesContext.Employees.FirstOrDefaultAsync(x => x.Number == number);
         }

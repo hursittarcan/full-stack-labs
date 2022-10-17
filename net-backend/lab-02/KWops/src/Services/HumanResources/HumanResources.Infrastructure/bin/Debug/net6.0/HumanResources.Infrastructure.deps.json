@@ -467,6 +467,11 @@
           }
         }
       },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
       "HumanResources.AppLogic/1.0.0": {
         "dependencies": {
           "HumanResources.Domain": "1.0.0"
@@ -476,6 +481,9 @@
         }
       },
       "HumanResources.Domain/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "HumanResources.Domain.dll": {}
         }
@@ -774,6 +782,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "HumanResources.AppLogic/1.0.0": {
       "type": "project",

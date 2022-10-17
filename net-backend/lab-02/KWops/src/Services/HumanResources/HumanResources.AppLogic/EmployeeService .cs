@@ -20,10 +20,15 @@ namespace HumanResources.AppLogic
 
         public async Task<IEmployee> HireNewAsync(string lastName, string firstName, DateTime startDate)
         {
-            int sequence = await _employeeRepository.GetNumberOfStartersOnAsync(startDate);
-            var newEmployee = _employeeFactory.CreateNew(lastName, firstName, startDate, sequence); 
-             _employeeRepository.AddAsync(newEmployee);
-            return null; 
+            //int sequence1 = await _employeeRepository.GetNumberOfStartersOnAsync(startDate);
+            //var newEmployee1 = _employeeFactory.CreateNew(lastName, firstName, startDate, sequence1); 
+            // _employeeRepository.AddAsync(newEmployee1);
+            //return null;
+
+            int sequence = await _employeeRepository.GetNumberOfStartersOnAsync(startDate) + 1;
+            IEmployee newEmployee = _employeeFactory.CreateNew(lastName, firstName, startDate, sequence);
+            await _employeeRepository.AddAsync(newEmployee);
+            return newEmployee;
         }
     }
 }

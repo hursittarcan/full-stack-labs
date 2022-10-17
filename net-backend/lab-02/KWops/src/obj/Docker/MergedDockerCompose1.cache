@@ -25,7 +25,7 @@ services:
       NUGET_FALLBACK_PACKAGES: ""
     image: humanresourcesapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/src/../../../../../../full-stack/full-stack-labs/net-backend/lab-01/KWops/src/Services/HumanResources/HumanResources.Api/bin/Debug/net6.0/HumanResources.Api.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/HumanResources.Api.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -44,7 +44,7 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api
+      source: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api
       target: /app
       bind:
         create_host_path: true
@@ -72,7 +72,7 @@ services:
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\Hursit\Desktop\LABS-PXL\full-stack-labs\net-backend\lab-02\KWops\src
+      source: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src
       target: /src
       bind:
         create_host_path: true

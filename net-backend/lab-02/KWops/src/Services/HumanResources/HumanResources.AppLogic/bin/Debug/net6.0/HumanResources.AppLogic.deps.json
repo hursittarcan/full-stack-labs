@@ -14,7 +14,15 @@
           "HumanResources.AppLogic.dll": {}
         }
       },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      },
       "HumanResources.Domain/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "runtime": {
           "HumanResources.Domain.dll": {}
         }
@@ -23,6 +31,11 @@
   },
   "libraries": {
     "HumanResources.AppLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

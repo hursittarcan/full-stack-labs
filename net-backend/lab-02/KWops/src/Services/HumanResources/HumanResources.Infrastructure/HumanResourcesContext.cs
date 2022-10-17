@@ -14,6 +14,11 @@ namespace HumanResources.Infrastructure
 
         public HumanResourcesContext(DbContextOptions options)
             : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            new EmployeeConfiguration().Configure(modelBuilder.Entity<Employee>());
+        }
     }
 }
         

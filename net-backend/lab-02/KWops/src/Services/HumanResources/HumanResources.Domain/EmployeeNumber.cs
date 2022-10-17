@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HumanResources.Domain
 {
-    internal class EmployeeNumber : ValueObject<EmployeeNumber>
+    public class EmployeeNumber : ValueObject<EmployeeNumber>
     {
         public int Year { get; }
         public int Month { get; }
