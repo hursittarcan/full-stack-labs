@@ -14,4 +14,9 @@
     <PackageReference Include="coverlet.collector" Version="3.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Services\HumanResources\HumanResources.Domain\HumanResources.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Test\Test.csproj" />
+  </ItemGroup>
+
 </Project>
