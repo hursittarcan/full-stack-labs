@@ -31,7 +31,17 @@ namespace HumanResources.Domain
 
         public void Dismiss(bool withNotice = true)
         {
-            throw new NotImplementedException();
+            if (withNotice)
+            {
+                Contracts.Require(!EndDate.HasValue);
+                if (StartDate > DateTime.Now.AddMonths(-3)) EndDate = DateTime.Now.AddDays(7);
+                else if (StartDate > DateTime.Now.AddMonths(-12)) EndDate = DateTime.Now.AddDays(14);
+                else EndDate = DateTime.Now.AddDays(28);
+            }
+            else
+            {
+                EndDate = DateTime.Now;
+            }
         }
 
         internal class Factory : IEmployeeFactory
