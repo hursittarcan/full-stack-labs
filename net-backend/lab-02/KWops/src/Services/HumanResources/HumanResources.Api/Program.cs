@@ -2,6 +2,7 @@ using HumanResources.AppLogic;
 using Microsoft.EntityFrameworkCore;
 using HumanResources.Infrastructure;
 using HumanResources.Domain;
+using HumanResources.Api.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,6 +36,13 @@ builder.Services.AddScoped<IEmployeeRepository, EmployeeDbRepository>();
 builder.Services.AddScoped<HumanResourcesDbInitializer>();
 builder.Services.AddScoped<IEmployeeService, EmployeeService>();
 builder.Services.AddSingleton<IEmployeeFactory, Employee.Factory>();
+
+builder.Services.AddSingleton(provider => new ApplicationExceptionFilterAttribute(provider.GetRequiredService<ILogger<ApplicationExceptionFilterAttribute>>()));
+builder.Services.AddControllers(options =>
+{
+    options.Filters.AddService<ApplicationExceptionFilterAttribute>();
+});
+
 
 var app = builder.Build();
 
