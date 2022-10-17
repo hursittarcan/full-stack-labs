@@ -18,15 +18,15 @@ namespace HumanResources.Infrastructure
             _humanResourcesContext = humanResourcesContext;
         }
 
-        public async Task AddAsync(Employee newEmployee)
+        public async Task AddAsync(IEmployee newEmployee)
         {
             await _humanResourcesContext.AddAsync(newEmployee);
             _humanResourcesContext.SaveChangesAsync();
         }
 
-        public async Task<Employee?> GetByNumberAsync(string number)
+        async Task<IEmployee?> IEmployeeRepository.GetByNumberAsync(string number)
         {
-            return await _humanResourcesContext.Set<Employee>().FirstOrDefaultAsync(x => x.Number == number);
+            return (IEmployee?) await _humanResourcesContext.Set<Employee>().FirstOrDefaultAsync(x => x.Number == number);
         }
     }
 }
