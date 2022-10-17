@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "U+n/P2UwmMb9ZX/KyxXr9GoFuGY40+IWdKU4UO27lUg6o45ATW/XxKkMlq5SvNlEiD9vK/YCXJxxB/UfD865rA==",
+  "dgSpecHash": "2kzYT9zHQ+DhgjU/9QV+tsGUqUMWeYhO0G/z17r8YAwEZEL1pKvjyJrm68iisnI9jzfSIx3jO62M61q248eMYA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-02\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hursit\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\system.diagnostics.eventlog.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
