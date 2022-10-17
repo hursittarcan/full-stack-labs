@@ -1,4 +1,7 @@
-﻿namespace HumanResources.Api.Models
+﻿using AutoMapper;
+using HumanResources.Domain;
+
+namespace HumanResources.Api.Models
 {
     public class EmployeeDetailModel
     {
@@ -7,5 +10,13 @@
         public string FirstName { get; set; } = string.Empty;
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
+
+        private class MappingProfile : Profile
+        {
+            public MappingProfile()
+            {
+                CreateMap<IEmployee, EmployeeDetailModel>();
+            }
+        }
     }
 }
