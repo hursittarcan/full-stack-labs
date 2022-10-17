@@ -29,6 +29,11 @@ namespace HumanResources.Domain
             throw new NotImplementedException();
         }
 
+        public void Dismiss(bool withNotice = true)
+        {
+            throw new NotImplementedException();
+        }
+
         internal class Factory : IEmployeeFactory
         {
             public IEmployee CreateNew(string lastName, string firstName, DateTime startDate, int sequence)
