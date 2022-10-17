@@ -607,6 +607,16 @@
           }
         }
       },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "HumanResources.AppLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -623,6 +633,9 @@
       "HumanResources.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/HumanResources.Domain.dll": {}
         },
@@ -1818,6 +1831,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../../BuildingBlocks/Domain/Domain.csproj",
+      "msbuildProject": "../../../../BuildingBlocks/Domain/Domain.csproj"
     },
     "HumanResources.AppLogic/1.0.0": {
       "type": "project",

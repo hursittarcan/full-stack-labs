@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
       "HumanResources.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/HumanResources.Domain.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../../BuildingBlocks/Domain/Domain.csproj",
+      "msbuildProject": "../../../../BuildingBlocks/Domain/Domain.csproj"
+    },
     "HumanResources.Domain/1.0.0": {
       "type": "project",
       "path": "../HumanResources.Domain/HumanResources.Domain.csproj",
