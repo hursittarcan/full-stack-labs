@@ -84,3 +84,5 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\obj\De
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\obj\Debug\docker-compose.dcproj.CopyComplete
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\bin\Debug\Domain.dll
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\bin\Debug\Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\bin\Debug\AutoMapper.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
