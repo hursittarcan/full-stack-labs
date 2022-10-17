@@ -9,7 +9,7 @@ namespace HumanResources.AppLogic
 {
     public interface IEmployeeRepository
     {
-        Task AddAsync(Employee newEmployee);
-        Task<Employee?> GetByNumberAsync(string number);
+        Task AddAsync(IEmployee newEmployee);
+        Task<IEmployee?> GetByNumberAsync(string number);
     }
 }
