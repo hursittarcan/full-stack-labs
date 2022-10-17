@@ -13,10 +13,11 @@ namespace HumanResources.Infrastructure
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder.Property(b => b.Number).HasMaxLength(11); 
-            builder.HasKey(b => b.Number);
-            builder.Property(b => b.FirstName).IsRequired();
-            builder.Property(b => b.LastName).IsRequired();
+            builder.HasKey(e => e.Number);
+            builder.Property(e => e.Number).HasMaxLength(11)
+                .HasConversion(n => n.ToString(), s => new EmployeeNumber(s));
+            builder.Property(e => e.LastName).IsRequired();
+            builder.Property(e => e.FirstName).IsRequired();
         }
     }
 }

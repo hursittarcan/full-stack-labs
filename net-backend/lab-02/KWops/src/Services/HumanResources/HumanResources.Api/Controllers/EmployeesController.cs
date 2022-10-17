@@ -23,7 +23,7 @@ namespace HumanResources.Api.Controllers
         }
 
         [HttpPost]
-        public async void AddEmployee(Employee employee)
+        public async void AddEmployee(IEmployee employee)
         {
             await _employeeRepository.AddAsync(employee);
         }

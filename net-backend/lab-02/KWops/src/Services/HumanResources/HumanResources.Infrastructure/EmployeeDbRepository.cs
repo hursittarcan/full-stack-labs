@@ -27,8 +27,6 @@ namespace HumanResources.Infrastructure
         async Task<IEmployee?> IEmployeeRepository.GetByNumberAsync(string number)
         {
             return await _humanResourcesContext.Employees.FirstOrDefaultAsync(x => x.Number == number);
-                
-       
         }
     }
 }
