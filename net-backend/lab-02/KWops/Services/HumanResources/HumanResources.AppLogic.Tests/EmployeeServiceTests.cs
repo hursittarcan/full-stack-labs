@@ -54,5 +54,26 @@ namespace HumanResources.AppLogic.Tests
             _employeeRepositoryMock.Verify(repo => repo.AddAsync(createdEmployee), Times.Once);
             Assert.That(result, Is.SameAs(createdEmployee));
         }
+
+        [Test]
+        public void DismissAsync_Should_RetrieveEmployeeFromRepository_DismissTheEmployee_AndSaveTheChanges()
+        {
+            //Arrange
+            EmployeeNumber employeeNumber = new EmployeeNumber(DateTime.Now, 1);
+
+            Mock<IEmployee> employeeToDismissMock = new Mock<IEmployee>();
+            IEmployee employeeToDismiss = employeeToDismissMock.Object;
+
+            _employeeRepositoryMock.Setup(repo => repo.GetByNumberAsync(It.IsAny<EmployeeNumber>()))
+                .ReturnsAsync(employeeToDismiss);
+
+            //Act
+            _service.DismissAsync(employeeNumber, true).Wait();
+
+            //Assert
+            _employeeRepositoryMock.Verify(repo => repo.GetByNumberAsync(employeeNumber), Times.Once);
+            employeeToDismissMock.Verify(e => e.Dismiss(true), Times.Once);
+            _employeeRepositoryMock.Verify(repo => repo.CommitTrackedChangesAsync(), Times.Once);
+        }
     }
 }
