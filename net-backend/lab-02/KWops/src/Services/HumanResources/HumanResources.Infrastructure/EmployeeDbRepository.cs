@@ -24,6 +24,11 @@ namespace HumanResources.Infrastructure
             _humanResourcesContext.SaveChangesAsync();
         }
 
+        public async Task<int> GetNumberOfStartersOnAsync(DateTime startDate)
+        {
+            return await _humanResourcesContext.Employees.CountAsync(x => x.StartDate == startDate);
+        }
+
         async Task<IEmployee?> IEmployeeRepository.GetByNumberAsync(string number)
         {
             return await _humanResourcesContext.Employees.FirstOrDefaultAsync(x => x.Number == number);
