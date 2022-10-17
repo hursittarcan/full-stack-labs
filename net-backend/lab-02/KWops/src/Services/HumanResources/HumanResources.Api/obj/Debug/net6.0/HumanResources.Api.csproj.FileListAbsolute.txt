@@ -148,3 +148,5 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\ref\HumanResources.Api.dll
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\Moq.dll

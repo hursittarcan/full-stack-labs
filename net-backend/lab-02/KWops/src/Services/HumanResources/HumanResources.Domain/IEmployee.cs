@@ -13,5 +13,6 @@ namespace HumanResources.Domain
         string FirstName { get; }
         DateTime StartDate { get; }
         DateTime? EndDate { get; }
+        void Dismiss(bool withNotice = true);
     }
 }
