@@ -18,6 +18,11 @@ namespace HumanResources.AppLogic
             _employeeFactory = employeeFactory; 
         }
 
+        public Task DismissAsync(EmployeeNumber employeeNumber, bool withNotice)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<IEmployee> HireNewAsync(string lastName, string firstName, DateTime startDate)
         {
             //int sequence1 = await _employeeRepository.GetNumberOfStartersOnAsync(startDate);
