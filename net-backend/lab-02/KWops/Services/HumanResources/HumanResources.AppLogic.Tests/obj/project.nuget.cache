@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bNSkkTQVGmIu7W4ErU/knqfUDs6E1QCCVRZnoKpcttWcUc+fb9LzCJS81l12C5arCfipCvEUA8rc1n74ipB7+A==",
+  "dgSpecHash": "ucvPRHkDRkb/5CxWdjVbp566tdMtCqQ6U1QWEKcZtMNxa1FDn97lco0qtETc0jAebxCwBCFWkfgWwOhrPeQ7YA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-02\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
   "expectedPackageFiles": [
