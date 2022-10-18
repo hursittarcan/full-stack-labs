@@ -1,5 +1,41 @@
 name: dockercompose13432082373218739115
 services:
+  devops.api:
+    build:
+      context: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src
+      dockerfile: Services/DevOps/DevOps.Api/Dockerfile
+    depends_on:
+      sqldata:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      ConnectionString: Data Source=sqldata;Database=KWops.DevOps;User Id=sa;Password=Pass@word
+    image: devopsapi
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "6000"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      published: "6001"
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Hursit\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Hursit\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
   humanresources.api:
     build:
       context: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src

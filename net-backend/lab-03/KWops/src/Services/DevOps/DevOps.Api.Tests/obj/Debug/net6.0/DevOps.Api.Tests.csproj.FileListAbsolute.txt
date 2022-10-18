@@ -160,3 +160,6 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\DevOps.Infrastructure.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\Domain.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\Test.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\Api.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\Api.pdb

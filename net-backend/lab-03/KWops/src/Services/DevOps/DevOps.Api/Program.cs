@@ -26,8 +26,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
-
 builder.Services.AddScoped<DevOpsDbInitializer>();
 builder.Services.AddScoped<IDeveloperRepository, DeveloperRepository>();
 builder.Services.AddScoped<ITeamRepository, TeamRepository>();
@@ -37,6 +35,8 @@ builder.Services.AddControllers(options =>
 {
     options.Filters.AddService<ApplicationExceptionFilterAttribute>();
 });
+
+var app = builder.Build();
 
 IServiceScope startUpScope = app.Services.CreateScope();
 var initializer = startUpScope.ServiceProvider.GetRequiredService<DevOpsDbInitializer>();
