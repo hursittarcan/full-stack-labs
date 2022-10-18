@@ -18,16 +18,22 @@ namespace DevOps.Domain
         private Team(Guid id, string name)
         {
             _developers = new List<Developer>();
+            Name = name;
+            Id = id;
         }
 
         public static Team CreateNew(string name)
         {
-            return null;
+            Contracts.Require(!String.IsNullOrEmpty(name), "error");
+            Guid id = Guid.NewGuid();
+            return new Team(id, name);
         }
 
         public void Join(Developer developer)
         {
-
+            Contracts.Require(!Developers.Contains(developer), "error");
+            _developers.Add(developer);
+            developer.TeamId = Id;
         }
 
         protected override IEnumerable<object> GetIdComponents()
