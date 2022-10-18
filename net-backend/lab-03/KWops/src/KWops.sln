@@ -31,19 +31,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.Api.Tests", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{D79F9444-0D1D-4D1C-9E9A-067D25A72C95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Api", "Services\DevOps\DevOps.Api\DevOps.Api.csproj", "{69AAEE86-2419-4662-BDCD-9CAD7766120F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Api", "Services\DevOps\DevOps.Api\DevOps.Api.csproj", "{69AAEE86-2419-4662-BDCD-9CAD7766120F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Domain", "Services\DevOps\DevOps.Domain\DevOps.Domain.csproj", "{37378DED-A2A9-448B-86E1-3B0F49A8932E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Domain", "Services\DevOps\DevOps.Domain\DevOps.Domain.csproj", "{37378DED-A2A9-448B-86E1-3B0F49A8932E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.AppLogic", "Services\DevOps\DevOps.AppLogic\DevOps.AppLogic.csproj", "{DD3108E0-3F38-41E1-A499-DE08A701950D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.AppLogic", "Services\DevOps\DevOps.AppLogic\DevOps.AppLogic.csproj", "{DD3108E0-3F38-41E1-A499-DE08A701950D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Infrastructure", "Services\DevOps\DevOps.Infrastructure\DevOps.Infrastructure.csproj", "{3B7C4F56-178D-4F4B-A861-59ADCDD18E01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Infrastructure", "Services\DevOps\DevOps.Infrastructure\DevOps.Infrastructure.csproj", "{3B7C4F56-178D-4F4B-A861-59ADCDD18E01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Domain.Tests", "Services\DevOps\DevOps.Domain.Tests\DevOps.Domain.Tests.csproj", "{589FCF07-383B-46E5-B4E8-DDF9D0AF59E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Domain.Tests", "Services\DevOps\DevOps.Domain.Tests\DevOps.Domain.Tests.csproj", "{589FCF07-383B-46E5-B4E8-DDF9D0AF59E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.AppLogic.Tests", "Services\DevOps\DevOps.AppLogic.Tests\DevOps.AppLogic.Tests.csproj", "{FFDAC68C-7800-4371-BABD-C7ADFDC0E368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.AppLogic.Tests", "Services\DevOps\DevOps.AppLogic.Tests\DevOps.AppLogic.Tests.csproj", "{FFDAC68C-7800-4371-BABD-C7ADFDC0E368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Api.Tests", "Services\DevOps\DevOps.Api.Tests\DevOps.Api.Tests.csproj", "{546DF9EF-E243-4EB2-A047-7C18CD5005F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Api.Tests", "Services\DevOps\DevOps.Api.Tests\DevOps.Api.Tests.csproj", "{546DF9EF-E243-4EB2-A047-7C18CD5005F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "BuildingBlocks\Api\Api.csproj", "{8B48641C-FF1B-423F-9491-2C8514347CB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +121,10 @@ Global
 		{546DF9EF-E243-4EB2-A047-7C18CD5005F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{546DF9EF-E243-4EB2-A047-7C18CD5005F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{546DF9EF-E243-4EB2-A047-7C18CD5005F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B48641C-FF1B-423F-9491-2C8514347CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B48641C-FF1B-423F-9491-2C8514347CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B48641C-FF1B-423F-9491-2C8514347CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B48641C-FF1B-423F-9491-2C8514347CB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +148,7 @@ Global
 		{589FCF07-383B-46E5-B4E8-DDF9D0AF59E9} = {D79F9444-0D1D-4D1C-9E9A-067D25A72C95}
 		{FFDAC68C-7800-4371-BABD-C7ADFDC0E368} = {D79F9444-0D1D-4D1C-9E9A-067D25A72C95}
 		{546DF9EF-E243-4EB2-A047-7C18CD5005F4} = {D79F9444-0D1D-4D1C-9E9A-067D25A72C95}
+		{8B48641C-FF1B-423F-9491-2C8514347CB5} = {D2A65B74-354C-46D2-BB82-A6D5B35C65EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E5DD1A0-09FC-426C-A8FA-74103E6B9933}

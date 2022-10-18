@@ -1,0 +1,5 @@
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.csproj.CoreCompileInputs.cache
