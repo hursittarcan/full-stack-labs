@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CNAJLIXxaRE4hyMMk9mn427W6Mi6ZnZz1eJdHmsbbmB/3IZFnHGx6jLjZWj9fAUIGwXVaXRh7pe0Y4rLDXS0sw==",
+  "dgSpecHash": "GFwbZ3rMZf+YnVRSD4XylYC/URSPYcOr2psIBmqVTWYs5YJCSva5v8nhUu0pQAL4AwKiNV4h1Oa7as4QbS3FMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Api.Tests\\DevOps.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using DevOps.Api.Controllers;
 using DevOps.Api.Models;
 using DevOps.AppLogic;
 using DevOps.Domain;

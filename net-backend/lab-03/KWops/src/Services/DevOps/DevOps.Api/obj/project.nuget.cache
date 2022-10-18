@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oJBpGyEt6JxOA8CNRXpv7jmyR2/nW1om8QAdAnqO9klmDA/rdEQwqUh1cE7CGtYdZDzUlVKJ6SqiFrSdJd26KQ==",
+  "dgSpecHash": "DLp8JqfnfIt+pwEx3Kn1HZmLGnFTx5eE6+HyvoOta5JK/hE0ce6roXOPlE5CGydH2mSm2iwSS1nGmVgpAIzp4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Api\\DevOps.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
