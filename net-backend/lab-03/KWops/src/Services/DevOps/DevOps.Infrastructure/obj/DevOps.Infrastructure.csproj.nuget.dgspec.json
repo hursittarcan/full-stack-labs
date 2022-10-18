@@ -220,6 +220,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
             }
           },
           "imports": [
