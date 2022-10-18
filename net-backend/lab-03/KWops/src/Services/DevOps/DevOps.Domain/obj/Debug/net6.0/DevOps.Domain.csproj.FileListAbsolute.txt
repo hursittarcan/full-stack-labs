@@ -3,3 +3,13 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.AssemblyInfoInputs.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.AssemblyInfo.cs
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\net6.0\DevOps.Domain.deps.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\net6.0\DevOps.Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\net6.0\DevOps.Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.csproj.CopyComplete
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\refint\DevOps.Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\ref\DevOps.Domain.dll

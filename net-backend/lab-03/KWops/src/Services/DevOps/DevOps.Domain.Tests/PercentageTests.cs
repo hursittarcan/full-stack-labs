@@ -1,4 +1,6 @@
-﻿using Test;
+﻿using Domain;
+using NUnit.Framework;
+using Test;
 
 namespace DevOps.Domain.Tests
 {
