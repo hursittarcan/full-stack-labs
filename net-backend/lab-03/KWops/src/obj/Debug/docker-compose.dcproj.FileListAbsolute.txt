@@ -118,3 +118,5 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\De
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\Debug\Api.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\Debug\Api.pdb

@@ -3,3 +3,16 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Buildi
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.AssemblyInfoInputs.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.AssemblyInfo.cs
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\bin\Debug\net6.0\Api.deps.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\bin\Debug\net6.0\Api.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\bin\Debug\net6.0\Api.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\bin\Debug\net6.0\Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\bin\Debug\net6.0\Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\scopedcss\bundle\Api.styles.css
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.csproj.CopyComplete
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\refint\Api.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\Api.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\BuildingBlocks\Api\obj\Debug\net6.0\ref\Api.dll

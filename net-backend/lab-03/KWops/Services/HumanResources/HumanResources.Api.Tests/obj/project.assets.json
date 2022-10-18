@@ -1598,6 +1598,22 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "DevOps.AppLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1638,6 +1654,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Api": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "HumanResources.Infrastructure": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
@@ -6090,6 +6107,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Api/1.0.0": {
+      "type": "project",
+      "path": "../../../src/BuildingBlocks/Api/Api.csproj",
+      "msbuildProject": "../../../src/BuildingBlocks/Api/Api.csproj"
     },
     "DevOps.AppLogic/1.0.0": {
       "type": "project",
