@@ -598,6 +598,19 @@
           }
         }
       },
+      "DevOps.AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevOps.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.AppLogic.dll": {}
+        }
+      },
       "DevOps.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1786,6 +1799,11 @@
         "version.txt"
       ]
     },
+    "DevOps.AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../DevOps.AppLogic/DevOps.AppLogic.csproj",
+      "msbuildProject": "../DevOps.AppLogic/DevOps.AppLogic.csproj"
+    },
     "DevOps.Domain/1.0.0": {
       "type": "project",
       "path": "../DevOps.Domain/DevOps.Domain.csproj",
@@ -1799,6 +1817,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DevOps.AppLogic >= 1.0.0",
       "DevOps.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10"
     ]
@@ -1830,6 +1849,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.AppLogic\\DevOps.AppLogic.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.AppLogic\\DevOps.AppLogic.csproj"
+            },
             "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj": {
               "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj"
             }

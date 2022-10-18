@@ -1598,6 +1598,32 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "DevOps.AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevOps.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.AppLogic.dll": {}
+        }
+      },
+      "DevOps.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.Domain.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1659,6 +1685,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DevOps.AppLogic": "1.0.0",
           "HumanResources.AppLogic": "1.0.0",
           "HumanResources.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
@@ -6063,6 +6090,16 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "DevOps.AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../../../src/Services/DevOps/DevOps.AppLogic/DevOps.AppLogic.csproj",
+      "msbuildProject": "../../../src/Services/DevOps/DevOps.AppLogic/DevOps.AppLogic.csproj"
+    },
+    "DevOps.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../src/Services/DevOps/DevOps.Domain/DevOps.Domain.csproj",
+      "msbuildProject": "../../../src/Services/DevOps/DevOps.Domain/DevOps.Domain.csproj"
     },
     "Domain/1.0.0": {
       "type": "project",
