@@ -20,6 +20,17 @@ services:
       - "1433:1433" #make db server accessible for host system on port 1433(Server name: localhost)
     volumes:
       - kwops-sqldata:/var/opt/mssql
+  devops.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=https://+:443;http://+:80
+      - ConnectionString=Data Source=sqldata;Database=KWops.DevOps;User Id=sa;Password=Pass@word
+    ports:
+      - "6000:80"
+      - "6001:443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
 
 volumes:
   kwops-sqldata:
