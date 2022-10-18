@@ -1,8 +1,8 @@
-name: dockercompose12488264915891291662
+name: dockercompose13432082373218739115
 services:
   humanresources.api:
     build:
-      context: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src
+      context: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src
       dockerfile: Services/HumanResources/HumanResources.Api/Dockerfile
     depends_on:
       sqldata:
@@ -55,7 +55,7 @@ services:
       volume: {}
 networks:
   default:
-    name: dockercompose12488264915891291662_default
+    name: dockercompose13432082373218739115_default
 volumes:
   kwops-sqldata:
-    name: dockercompose12488264915891291662_kwops-sqldata
+    name: dockercompose13432082373218739115_kwops-sqldata

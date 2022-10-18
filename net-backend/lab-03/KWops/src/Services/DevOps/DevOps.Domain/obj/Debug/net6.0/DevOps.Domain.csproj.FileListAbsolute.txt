@@ -1,0 +1,5 @@
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Domain\obj\Debug\net6.0\DevOps.Domain.csproj.CoreCompileInputs.cache

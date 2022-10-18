@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vp8V1LsJF1XuBqQCVQzNfCNBPJn17bGk3jQfwHVnWnUgWB4QJl9t3WoLB72bQpqXG93iSBXr1ACpJSYAwzXH0A==",
+  "dgSpecHash": "gB0XSM/z3+6JdWc05khXvTGNCPn7QbA512UVZKlj3gQs5uusee5KnWAEqpcavb4xlhToAq194BwxyokH9K+0CQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain.Tests\\DevOps.Domain.Tests.csproj",
   "expectedPackageFiles": [

@@ -1,8 +1,8 @@
-name: dockercompose12488264915891291662
+name: dockercompose13432082373218739115
 services:
   humanresources.api:
     build:
-      context: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src
+      context: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src
       dockerfile: Services/HumanResources/HumanResources.Api/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -44,7 +44,7 @@ services:
     tty: true
     volumes:
     - type: bind
-      source: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src\Services\HumanResources\HumanResources.Api
+      source: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api
       target: /app
       bind:
         create_host_path: true
@@ -72,7 +72,7 @@ services:
       bind:
         create_host_path: true
     - type: bind
-      source: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\src
+      source: C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src
       target: /src
       bind:
         create_host_path: true
@@ -95,7 +95,7 @@ services:
       volume: {}
 networks:
   default:
-    name: dockercompose12488264915891291662_default
+    name: dockercompose13432082373218739115_default
 volumes:
   kwops-sqldata:
-    name: dockercompose12488264915891291662_kwops-sqldata
+    name: dockercompose13432082373218739115_kwops-sqldata

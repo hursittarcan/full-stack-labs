@@ -1,0 +1,12 @@
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.Infrastructure.deps.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.Infrastructure.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\refint\DevOps.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\ref\DevOps.Infrastructure.dll

@@ -882,6 +882,39 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "DevOps.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.Domain.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      },
+      "Test/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Test.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Test.dll": {}
+        }
       }
     }
   },
@@ -3844,13 +3877,30 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "DevOps.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DevOps.Domain/DevOps.Domain.csproj",
+      "msbuildProject": "../DevOps.Domain/DevOps.Domain.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../../BuildingBlocks/Domain/Domain.csproj",
+      "msbuildProject": "../../../../BuildingBlocks/Domain/Domain.csproj"
+    },
+    "Test/1.0.0": {
+      "type": "project",
+      "path": "../../../../Test/Test.csproj",
+      "msbuildProject": "../../../../Test/Test.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DevOps.Domain >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
+      "Test >= 1.0.0",
       "coverlet.collector >= 3.1.0"
     ]
   },
@@ -3880,7 +3930,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj"
+            },
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Test\\Test.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Test\\Test.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
