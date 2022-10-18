@@ -23,11 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\BuildingBlocks
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "..\Test\Test.csproj", "{0E1D1A50-4243-453A-A1C6-F5DBB7BDD692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Domain.Tests", "..\Services\HumanResources\HumanResources.Domain.Tests\HumanResources.Domain.Tests.csproj", "{21283A0C-CDF1-4163-9EAB-48E741029CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.Domain.Tests", "..\Services\HumanResources\HumanResources.Domain.Tests\HumanResources.Domain.Tests.csproj", "{21283A0C-CDF1-4163-9EAB-48E741029CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.AppLogic.Tests", "..\Services\HumanResources\HumanResources.AppLogic.Tests\HumanResources.AppLogic.Tests.csproj", "{F6EB257F-D49D-4962-807B-B74365D9E15A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.AppLogic.Tests", "..\Services\HumanResources\HumanResources.AppLogic.Tests\HumanResources.AppLogic.Tests.csproj", "{F6EB257F-D49D-4962-807B-B74365D9E15A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanResources.Api.Tests", "..\Services\HumanResources\HumanResources.Api.Tests\HumanResources.Api.Tests.csproj", "{238479C5-2262-4FAA-85D6-8E012ED9B0EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanResources.Api.Tests", "..\Services\HumanResources\HumanResources.Api.Tests\HumanResources.Api.Tests.csproj", "{238479C5-2262-4FAA-85D6-8E012ED9B0EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DevOps", "DevOps", "{D79F9444-0D1D-4D1C-9E9A-067D25A72C95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps.Api", "Services\DevOps\DevOps.Api\DevOps.Api.csproj", "{69AAEE86-2419-4662-BDCD-9CAD7766120F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,10 @@ Global
 		{238479C5-2262-4FAA-85D6-8E012ED9B0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{238479C5-2262-4FAA-85D6-8E012ED9B0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{238479C5-2262-4FAA-85D6-8E012ED9B0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69AAEE86-2419-4662-BDCD-9CAD7766120F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69AAEE86-2419-4662-BDCD-9CAD7766120F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69AAEE86-2419-4662-BDCD-9CAD7766120F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69AAEE86-2419-4662-BDCD-9CAD7766120F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,8 @@ Global
 		{21283A0C-CDF1-4163-9EAB-48E741029CC7} = {8916352B-BC31-4A4B-934B-53366126E88E}
 		{F6EB257F-D49D-4962-807B-B74365D9E15A} = {8916352B-BC31-4A4B-934B-53366126E88E}
 		{238479C5-2262-4FAA-85D6-8E012ED9B0EA} = {8916352B-BC31-4A4B-934B-53366126E88E}
+		{D79F9444-0D1D-4D1C-9E9A-067D25A72C95} = {ABD4F72A-CDFB-497B-B2E1-663AE246BB2D}
+		{69AAEE86-2419-4662-BDCD-9CAD7766120F} = {D79F9444-0D1D-4D1C-9E9A-067D25A72C95}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E5DD1A0-09FC-426C-A8FA-74103E6B9933}
