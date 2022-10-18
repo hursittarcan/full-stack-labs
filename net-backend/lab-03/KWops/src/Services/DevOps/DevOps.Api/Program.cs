@@ -25,6 +25,11 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+IServiceScope startUpScope = app.Services.CreateScope();
+var initializer = startUpScope.ServiceProvider.GetRequiredService<DevOpsDbInitializer>();
+initializer.MigrateDatabase();
+initializer.SeedData();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
