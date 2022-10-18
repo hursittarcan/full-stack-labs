@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "HumanResources.Infrastructure/1.0.0": {
         "dependencies": {
+          "DevOps.AppLogic": "1.0.0",
           "HumanResources.AppLogic": "1.0.0",
           "HumanResources.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.9",
@@ -511,6 +512,22 @@
           }
         }
       },
+      "DevOps.AppLogic/1.0.0": {
+        "dependencies": {
+          "DevOps.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DevOps.AppLogic.dll": {}
+        }
+      },
+      "DevOps.Domain/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "runtime": {
+          "DevOps.Domain.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "runtime": {
           "Domain.dll": {}
@@ -848,6 +865,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "DevOps.AppLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DevOps.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Domain/1.0.0": {
       "type": "project",

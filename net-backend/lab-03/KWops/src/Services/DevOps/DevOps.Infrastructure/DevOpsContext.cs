@@ -15,5 +15,11 @@ namespace DevOps.Infrastructure
 
         public DevOpsContext(DbContextOptions options)
             : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            new DeveloperConfiguration().Configure(modelBuilder.Entity<Developer>());
+            new TeamConfiguration().Configure(modelBuilder.Entity<Team>());
+        }
     }
 }

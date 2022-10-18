@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\DevOps\DevOps.AppLogic\DevOps.AppLogic.csproj" />
     <ProjectReference Include="..\HumanResources.AppLogic\HumanResources.AppLogic.csproj" />
     <ProjectReference Include="..\HumanResources.Domain\HumanResources.Domain.csproj" />
   </ItemGroup>

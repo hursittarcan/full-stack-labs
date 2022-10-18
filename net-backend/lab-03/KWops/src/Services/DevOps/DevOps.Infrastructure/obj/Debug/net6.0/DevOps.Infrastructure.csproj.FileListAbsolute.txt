@@ -10,3 +10,10 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\refint\DevOps.Infrastructure.dll
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\ref\DevOps.Infrastructure.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.AppLogic.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.AppLogic.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\DevOps.Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\bin\Debug\net6.0\Domain.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Infrastructure\obj\Debug\net6.0\DevOps.Infrastructure.csproj.CopyComplete

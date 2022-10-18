@@ -224,3 +224,7 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\HumanResources.Api.genruntimeconfig.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\obj\Debug\net6.0\ref\HumanResources.Api.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\DevOps.AppLogic.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\DevOps.Domain.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\DevOps.AppLogic.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Api\bin\Debug\net6.0\DevOps.Domain.pdb
