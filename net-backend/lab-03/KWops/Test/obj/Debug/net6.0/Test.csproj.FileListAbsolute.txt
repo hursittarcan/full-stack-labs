@@ -1,0 +1,12 @@
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\bin\Debug\net6.0\Test.deps.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\bin\Debug\net6.0\Test.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\bin\Debug\net6.0\Test.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\refint\Test.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\Test.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-02\KWops\Test\obj\Debug\net6.0\ref\Test.dll
