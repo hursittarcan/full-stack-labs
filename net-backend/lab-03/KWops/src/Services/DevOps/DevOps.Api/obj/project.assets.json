@@ -712,6 +712,57 @@
             "rid": "win"
           }
         }
+      },
+      "DevOps.AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevOps.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.AppLogic.dll": {}
+        }
+      },
+      "DevOps.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.Domain.dll": {}
+        }
+      },
+      "DevOps.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DevOps.AppLogic": "1.0.0",
+          "DevOps.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10"
+        },
+        "compile": {
+          "bin/placeholder/DevOps.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevOps.Infrastructure.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -2137,10 +2188,31 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DevOps.AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../DevOps.AppLogic/DevOps.AppLogic.csproj",
+      "msbuildProject": "../DevOps.AppLogic/DevOps.AppLogic.csproj"
+    },
+    "DevOps.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DevOps.Domain/DevOps.Domain.csproj",
+      "msbuildProject": "../DevOps.Domain/DevOps.Domain.csproj"
+    },
+    "DevOps.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../DevOps.Infrastructure/DevOps.Infrastructure.csproj",
+      "msbuildProject": "../DevOps.Infrastructure/DevOps.Infrastructure.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../../../../BuildingBlocks/Domain/Domain.csproj",
+      "msbuildProject": "../../../../BuildingBlocks/Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DevOps.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
@@ -2173,7 +2245,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Infrastructure\\DevOps.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Infrastructure\\DevOps.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
