@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AFMG05Se7ZaPARxCH88E4DdySq8XdDO2dXhqnlkWi5YT8NbuNRTCNAOgE0eXgjTMxNax6P0LAAzSODTFnFZSxw==",
+  "dgSpecHash": "a3aH2ZEvSRikPzjQvvG+ahAPNaNKzfnhhUHWxMpIhYHVQ6LhQWtfR3Mig1yYWDhTw26Gwmn6sNOGKrTfbEQEog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-02\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
