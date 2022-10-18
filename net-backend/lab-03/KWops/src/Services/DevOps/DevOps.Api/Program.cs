@@ -1,5 +1,7 @@
+using DevOps.AppLogic;
 using DevOps.Infrastructure;
 using HumanResources.Api.Filters;
+using HumanResources.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,6 +28,11 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+builder.Services.AddScoped<DevOpsDbInitializer>();
+builder.Services.AddScoped<IDeveloperRepository, DeveloperRepository>();
+builder.Services.AddScoped<ITeamRepository, TeamRepository>();
+builder.Services.AddScoped<ITeamService, TeamService>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddControllers(options =>
 {
     options.Filters.AddService<ApplicationExceptionFilterAttribute>();
