@@ -97,3 +97,4 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\obj\Debug\net6.0\DevOps.Api.Tests.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\obj\Debug\net6.0\DevOps.Api.Tests.genruntimeconfig.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\obj\Debug\net6.0\ref\DevOps.Api.Tests.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\DevOps\DevOps.Api.Tests\bin\Debug\net6.0\CoverletSourceRootsMapping
