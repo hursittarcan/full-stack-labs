@@ -1598,10 +1598,27 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "DevOps.Api/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Api": "1.0.0",
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
           "DevOps.Infrastructure": "1.0.0",
@@ -6081,6 +6098,11 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Api/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/Api/Api.csproj",
+      "msbuildProject": "../../../BuildingBlocks/Api/Api.csproj"
     },
     "DevOps.Api/1.0.0": {
       "type": "project",

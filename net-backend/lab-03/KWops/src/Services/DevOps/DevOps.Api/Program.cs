@@ -1,4 +1,5 @@
 using DevOps.Infrastructure;
+using HumanResources.Api.Filters;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+builder.Services.AddControllers(options =>
+{
+    options.Filters.AddService<ApplicationExceptionFilterAttribute>();
+});
 
 IServiceScope startUpScope = app.Services.CreateScope();
 var initializer = startUpScope.ServiceProvider.GetRequiredService<DevOpsDbInitializer>();

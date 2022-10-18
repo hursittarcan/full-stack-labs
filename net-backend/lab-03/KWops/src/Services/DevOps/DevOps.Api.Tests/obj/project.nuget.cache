@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GFwbZ3rMZf+YnVRSD4XylYC/URSPYcOr2psIBmqVTWYs5YJCSva5v8nhUu0pQAL4AwKiNV4h1Oa7as4QbS3FMg==",
+  "dgSpecHash": "sasD9uFYC29bQI0r/OVPAtHnRCEjC7C0CP5HlibGkZuM0xUW0w+RfY711ANFfLUPKyJ6+1WI2qE2z9vjfJL5Ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Api.Tests\\DevOps.Api.Tests.csproj",
   "expectedPackageFiles": [

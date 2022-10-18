@@ -747,6 +747,22 @@
           }
         }
       },
+      "Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "DevOps.AppLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2278,6 +2294,11 @@
         "version.txt"
       ]
     },
+    "Api/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/Api/Api.csproj",
+      "msbuildProject": "../../../BuildingBlocks/Api/Api.csproj"
+    },
     "DevOps.AppLogic/1.0.0": {
       "type": "project",
       "path": "../DevOps.AppLogic/DevOps.AppLogic.csproj",
@@ -2301,6 +2322,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Api >= 1.0.0",
       "AutoMapper >= 12.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
       "DevOps.Infrastructure >= 1.0.0",
@@ -2337,6 +2359,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\BuildingBlocks\\Api\\Api.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\BuildingBlocks\\Api\\Api.csproj"
+            },
             "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Infrastructure\\DevOps.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Infrastructure\\DevOps.Infrastructure.csproj"
             }
