@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gB0XSM/z3+6JdWc05khXvTGNCPn7QbA512UVZKlj3gQs5uusee5KnWAEqpcavb4xlhToAq194BwxyokH9K+0CQ==",
+  "dgSpecHash": "fD3GydX5SGj6Ea5kgcP8MMonxyUOJFPkfM77wa2+4yclUVJ47MUrgy+2fCosw05VmgYSsfWTpxb4UooS5nCc6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain.Tests\\DevOps.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.Domain.Tests\\DevOps.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

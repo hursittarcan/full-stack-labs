@@ -4052,11 +4052,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
       "projectName": "HumanResources.AppLogic.Tests",
-      "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
+      "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\HumanResources.AppLogic.Tests.csproj",
       "packagesPath": "C:\\Users\\Hursit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\Services\\HumanResources\\HumanResources.AppLogic.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hursit\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4073,14 +4073,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj": {
-              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj"
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.AppLogic\\HumanResources.AppLogic.csproj"
             },
-            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj": {
-              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj"
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj"
             },
-            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Test\\Test.csproj": {
-              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Test\\Test.csproj"
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\Test\\Test.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\Test\\Test.csproj"
             }
           }
         }

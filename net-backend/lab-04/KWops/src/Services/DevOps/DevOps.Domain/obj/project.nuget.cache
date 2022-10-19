@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3fMAhRbLQKRCL6vHUU6QAOWhgMaGXfwqzSpo72/3csMACSL4nAofZo+qyr3m5MWp7unoc8BMgj38xDr348K0pQ==",
+  "dgSpecHash": "x7pysrJkBLcLqh0Fug7djjzEQlqS1QIK/mQFXDvHlEXC8LUbDNS/V/OLepyFQeHJmwQDr4Wi7R+njGbGy9iy4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.Domain\\DevOps.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

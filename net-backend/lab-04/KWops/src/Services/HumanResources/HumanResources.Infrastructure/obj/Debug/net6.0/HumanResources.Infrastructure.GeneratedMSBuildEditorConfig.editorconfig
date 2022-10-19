@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HumanResources.Infrastructure
-build_property.ProjectDir = C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\Services\HumanResources\HumanResources.Infrastructure\
+build_property.ProjectDir = C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\HumanResources\HumanResources.Infrastructure\

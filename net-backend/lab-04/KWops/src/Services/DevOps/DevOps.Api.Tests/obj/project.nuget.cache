@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sasD9uFYC29bQI0r/OVPAtHnRCEjC7C0CP5HlibGkZuM0xUW0w+RfY711ANFfLUPKyJ6+1WI2qE2z9vjfJL5Ow==",
+  "dgSpecHash": "I2+q4eofe+fVG/hRK0e3UYuD1xZriKOWA97UwkYiMfT81i6gycSFagPGpAxC/1U35IZjFw29Wun/1azXEiLtdA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Api.Tests\\DevOps.Api.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.Api.Tests\\DevOps.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BeLVtRoczp6hSVhlL5jWftcf+gPFEOFeuXQ6UR0RKsig5YEf/a2SUf1RItmnhihRaxl/tJf5O/2y9nrMTEyPUw==",
+  "dgSpecHash": "kzhqc3LU/9dzA5vbny47wDcjdVATSej641F+pVEYmqZlW7+KgjEviUk50tnuB/jDRVw35OpX+jmXZODsKZ3zaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.Infrastructure\\DevOps.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.Infrastructure\\DevOps.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

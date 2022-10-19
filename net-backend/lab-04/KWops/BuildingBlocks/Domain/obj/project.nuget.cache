@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WlQ3kE5/8zV6dQ5dmdH5xTKkB8E6YPwMQ1XNhRZCH4auQJvBDLzFqW4m/O6ACWVhpWjHFAHF7iCtnCgBlp3Vvg==",
+  "dgSpecHash": "EJ9wy0VFNq1Cn11sR0PXZpZvjSbY0NjoS41SgVK2FLJhDqk1/KnxratX0MeDChVUJneOFHZ8XXN4QpNyqLfmyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\BuildingBlocks\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\BuildingBlocks\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

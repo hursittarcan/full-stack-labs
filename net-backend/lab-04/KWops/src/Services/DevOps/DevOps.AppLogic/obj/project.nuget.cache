@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SPRuCSRA0ESB/Nf8P+5UlRlfb/dgQciAqss7tm8WlWlx3ZHGbbOvfYtC9kIkniFLQe1skA8TKIj25Uu8RdRszQ==",
+  "dgSpecHash": "8fhOO22kXE6iJS0JA80rNW0+UI5UCjA3V6jaMnlTMzJKAP2nSIuK93ydqNrS0AWVm+FyMbgjyOn+Bfzy6nVLDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\DevOps\\DevOps.AppLogic\\DevOps.AppLogic.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.AppLogic\\DevOps.AppLogic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

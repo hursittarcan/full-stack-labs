@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8rlG6nZxOHlkaqzkH1AqV6EAtCBCQeuCW91+b8yL+26RciQKfayMjSsV9+y61mYmdVQNvlpfQsDueg+fUNwfGg==",
+  "dgSpecHash": "1SaZ3cMtfQyO0uRmhvIhLnKis4wT0GKwWQ4Q+5rpahQC7kz7vjbAUplfUM7O1Ugtyl31yeSI6VZPaNIu8S9mQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\Services\\HumanResources\\HumanResources.Infrastructure\\HumanResources.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Infrastructure\\HumanResources.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RHKffM63E/mae7+wiso/+A8q9artsSpA5/gU+2F7It2M42gZAYAHahfNIwQs8XNwctIFiDZd0HLd41aaQ4hPnQ==",
+  "dgSpecHash": "4BHTqHc2JoXtik4LTny2y7YMjuHD+FDGMPbqtoQNsPiew63CmT8jMihTjk1NBZoJ6RBJuhkEQoto5hbA3qZiPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\Services\\HumanResources\\HumanResources.Api.Tests\\HumanResources.Api.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\Services\\HumanResources\\HumanResources.Api.Tests\\HumanResources.Api.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
