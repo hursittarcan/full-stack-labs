@@ -1,4 +1,5 @@
 ﻿using AppLogic.Events;
+using HumanResources.AppLogic.Events;
 using HumanResources.Domain;
 using Moq;
 using NUnit.Framework;
@@ -40,7 +41,12 @@ namespace HumanResources.AppLogic.Tests
             _employeeRepositoryMock.Setup(repo => repo.GetNumberOfStartersOnAsync(It.IsAny<DateTime>()))
                 .ReturnsAsync(numberOfStartersOnStartDate);
 
-            IEmployee createdEmployee = new Mock<IEmployee>().Object;
+            var createdEmployeeMock = new Mock<IEmployee>();
+            createdEmployeeMock.SetupGet(e => e.Number).Returns(new EmployeeNumber(startDate, 1));
+            createdEmployeeMock.SetupGet(e => e.FirstName).Returns(firstName);
+            createdEmployeeMock.SetupGet(e => e.LastName).Returns(lastName);
+            IEmployee createdEmployee = createdEmployeeMock.Object;
+
             _employeeFactoryMock
                 .Setup(factory =>
                     factory.CreateNew(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<DateTime>(), It.IsAny<int>()))
@@ -55,6 +61,13 @@ namespace HumanResources.AppLogic.Tests
             _employeeFactoryMock.Verify(
                 factory => factory.CreateNew(lastName, firstName, startDate, expectedSequence), Times.Once);
             _employeeRepositoryMock.Verify(repo => repo.AddAsync(createdEmployee), Times.Once);
+
+            _eventBusMock.Verify(
+                bus => bus.Publish(It.Is<EmployeeHiredIntegrationEvent>(@event =>
+                    @event.Number == createdEmployee.Number &&
+                    @event.FirstName == firstName &&
+                    @event.LastName == lastName)), Times.Once);
+
             Assert.That(result, Is.SameAs(createdEmployee));
         }
 
