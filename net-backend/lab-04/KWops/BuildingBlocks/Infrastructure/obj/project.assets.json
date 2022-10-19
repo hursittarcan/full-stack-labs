@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Furiza.Newtonsoft.Json/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "newtonsoft.json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
@@ -25,6 +37,15 @@
         "build": {
           "build/Microsoft.Extensions.Logging.Abstractions.targets": {},
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "Polly/7.2.3": {
@@ -66,10 +87,36 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
         }
+      },
+      "AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Furiza.Newtonsoft.Json": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppLogic.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Furiza.Newtonsoft.Json/1.1.2": {
+      "sha512": "o3tTR41Z6D9dkrSXENIoYPzE08xDARLsJEWtJd+C7iy4/EL1WlHb/25WWpYgmyVtCmwdMiehZz64k7il02earg==",
+      "type": "package",
+      "path": "furiza.newtonsoft.json/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "furiza.newtonsoft.json.1.1.2.nupkg.sha512",
+        "furiza.newtonsoft.json.nuspec",
+        "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Furiza.Newtonsoft.Json.xml"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
       "type": "package",
@@ -145,6 +192,45 @@
         "microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "Polly/7.2.3": {
@@ -233,10 +319,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../../src/BuildingBlocks/AppLogic/AppLogic.csproj",
+      "msbuildProject": "../../src/BuildingBlocks/AppLogic/AppLogic.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AppLogic >= 1.0.0",
       "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\BuildingBlocks\\AppLogic\\AppLogic.csproj",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "Microsoft.Extensions.Logging.Abstractions >= 6.0.0",
@@ -273,6 +365,9 @@
           "projectReferences": {
             "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\BuildingBlocks\\AppLogic\\AppLogic.csproj": {
               "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\BuildingBlocks\\AppLogic\\AppLogic.csproj"
+            },
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\BuildingBlocks\\AppLogic\\AppLogic.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\BuildingBlocks\\AppLogic\\AppLogic.csproj"
             }
           }
         }

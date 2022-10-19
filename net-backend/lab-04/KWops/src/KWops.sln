@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.Api.Tests", "Service
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "BuildingBlocks\Api\Api.csproj", "{8B48641C-FF1B-423F-9491-2C8514347CB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppLogic", "BuildingBlocks\AppLogic\AppLogic.csproj", "{1866116B-FF42-474F-8EBC-3E220310DA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppLogic", "BuildingBlocks\AppLogic\AppLogic.csproj", "{1866116B-FF42-474F-8EBC-3E220310DA98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "..\BuildingBlocks\Infrastructure\Infrastructure.csproj", "{7A9D339F-2012-456B-9A27-855F734D6B78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,10 @@ Global
 		{1866116B-FF42-474F-8EBC-3E220310DA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1866116B-FF42-474F-8EBC-3E220310DA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1866116B-FF42-474F-8EBC-3E220310DA98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9D339F-2012-456B-9A27-855F734D6B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9D339F-2012-456B-9A27-855F734D6B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9D339F-2012-456B-9A27-855F734D6B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9D339F-2012-456B-9A27-855F734D6B78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -156,6 +162,7 @@ Global
 		{546DF9EF-E243-4EB2-A047-7C18CD5005F4} = {D79F9444-0D1D-4D1C-9E9A-067D25A72C95}
 		{8B48641C-FF1B-423F-9491-2C8514347CB5} = {D2A65B74-354C-46D2-BB82-A6D5B35C65EE}
 		{1866116B-FF42-474F-8EBC-3E220310DA98} = {D2A65B74-354C-46D2-BB82-A6D5B35C65EE}
+		{7A9D339F-2012-456B-9A27-855F734D6B78} = {D2A65B74-354C-46D2-BB82-A6D5B35C65EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E5DD1A0-09FC-426C-A8FA-74103E6B9933}

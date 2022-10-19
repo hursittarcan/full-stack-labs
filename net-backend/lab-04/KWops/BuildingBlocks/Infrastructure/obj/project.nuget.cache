@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7Qu3R0ZVE55suFZNzAW5ozY8+7yE0LXkiV0bx0mkLQ5h5g0hL0kU5c+S3bT4DEsNfqlR4hDWp2jtctzCacTp5A==",
+  "dgSpecHash": "vy0+yObdcmt2bWK1/gKyU/EmIlV1aDhwyDE42sfQNNLTi1Vp8rmRnTMdg1jlFxj1Ff2B7ZKjegFQzaAcTdx7Tw==",
   "success": false,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hursit\\.nuget\\packages\\furiza.newtonsoft.json\\1.1.2\\furiza.newtonsoft.json.1.1.2.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
