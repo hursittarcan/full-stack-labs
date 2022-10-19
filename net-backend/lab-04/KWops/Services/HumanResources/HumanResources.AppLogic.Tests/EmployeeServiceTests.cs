@@ -1,4 +1,5 @@
-﻿using HumanResources.Domain;
+﻿using AppLogic.Events;
+using HumanResources.Domain;
 using Moq;
 using NUnit.Framework;
 using System;
@@ -14,6 +15,7 @@ namespace HumanResources.AppLogic.Tests
     {
         private Mock<IEmployeeFactory> _employeeFactoryMock;
         private Mock<IEmployeeRepository> _employeeRepositoryMock;
+        private Mock<IEventBus> _eventBusMock;
         private EmployeeService _service;
 
         [SetUp]
@@ -21,8 +23,9 @@ namespace HumanResources.AppLogic.Tests
         {
             _employeeFactoryMock = new Mock<IEmployeeFactory>();
             _employeeRepositoryMock = new Mock<IEmployeeRepository>();
+            _eventBusMock = new Mock<IEventBus>();
 
-            _service = new EmployeeService(_employeeFactoryMock.Object, _employeeRepositoryMock.Object);
+            _service = new EmployeeService(_employeeFactoryMock.Object, _employeeRepositoryMock.Object, _eventBusMock.Object);
         }
 
         [Test]
