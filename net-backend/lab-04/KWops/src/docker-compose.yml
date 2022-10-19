@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  humanresources.api:
+    image: ${DOCKER_REGISTRY-}humanresourcesapi
+    build:
+      context: .
+      dockerfile: Services/HumanResources/HumanResources.Api/Dockerfile
+    depends_on:
+      - sqldata
+
+  devops.api:
+    image: ${DOCKER_REGISTRY-}devopsapi
+    build:
+      context: .
+      dockerfile: Services/DevOps/DevOps.Api/Dockerfile
+    depends_on:
+      - sqldata
+
+  sqldata:
+    image: mcr.microsoft.com/mssql/server:2019-latest 
