@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OOVIZiSjVq+r+jfz1CvfBmcxg5AIuuj3g+evMk2RvUdK3jI2uvlbRjejd9JMCmigL7d0QBgbiQThb9J4mdc30A==",
+  "dgSpecHash": "4IG8LNMUHM8wLJbx8cs+9krnvGqE/gssoe82fbQEs82qw1hI4vqr+Mnv00mh7KV88pV5PEmDdxFaC6aPh4cMEw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.Api\\DevOps.Api.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\microsoft.extensions.logging.6.0.0.nupkg.sha512",
-    "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.identity.client\\4.21.1\\microsoft.identity.client.4.21.1.nupkg.sha512",

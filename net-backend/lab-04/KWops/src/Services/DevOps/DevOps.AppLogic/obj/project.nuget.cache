@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "WPldpyWAKA9cX15VxzVE/woCiZKsAB4kERvsI/nT5PYdor2KtVJ8ItJCxnf/O8lLboEzPpk/BFOgsblbxIcnJQ==",
+  "dgSpecHash": "gyukLX1uTVnhdh/WkvCZOFNH5fLd6Eg5LUNbdbHxSTlKmrjHBCehM+PD44iBaXTEhksrMEoBUb2+woKz7ybeIw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.AppLogic\\DevOps.AppLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\furiza.newtonsoft.json\\1.1.2\\furiza.newtonsoft.json.1.1.2.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
   ],
   "logs": []

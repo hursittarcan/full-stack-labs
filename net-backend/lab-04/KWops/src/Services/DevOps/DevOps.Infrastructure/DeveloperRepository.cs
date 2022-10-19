@@ -18,6 +18,12 @@ namespace DevOps.Infrastructure
             _devOpsContext = devOpsContext;
         }
 
+        public async Task AddAsync(Developer developer)
+        {
+            _devOpsContext.Developers.Add(developer);
+            await _devOpsContext.SaveChangesAsync();
+        }
+
         public async Task CommitTrackedChangesAsync()
         {
             await _devOpsContext.SaveChangesAsync();
@@ -26,6 +32,11 @@ namespace DevOps.Infrastructure
         public async Task<IReadOnlyList<Developer>> FindDevelopersWithoutATeamAsync()
         {
             return await _devOpsContext.Developers.Where(d => d.TeamId == null).ToListAsync();
+        }
+
+        public Task<Developer> GetByIdAsync(string number)
+        {
+            throw new NotImplementedException();
         }
     }
 }

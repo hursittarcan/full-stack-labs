@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RuLIwMnk0FOOP9fDU78pkzVe4kxWLaUh/yepydBNAM6MEp4jblUl9QzTwJBSSb5Jfdt2Nmqpq6DwSSIcTN2G+g==",
+  "dgSpecHash": "wOacQW5Z4wMHPOlXTPOEf2FMrAl6xocDZG2bWMtU38tYyVh7Fu66215zEXh13HLFTNTYptodL02a8FWQyqkrwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\DevOps\\DevOps.AppLogic.Tests\\DevOps.AppLogic.Tests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Hursit\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\furiza.newtonsoft.json\\1.1.2\\furiza.newtonsoft.json.1.1.2.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.11.0\\microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
