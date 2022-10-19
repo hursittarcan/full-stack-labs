@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1SaZ3cMtfQyO0uRmhvIhLnKis4wT0GKwWQ4Q+5rpahQC7kz7vjbAUplfUM7O1Ugtyl31yeSI6VZPaNIu8S9mQQ==",
+  "dgSpecHash": "tIMHv+wSrhCJyD20aA6gThiBNsosAl14mU52+/UBor11V2PjsXXpI/+hFW9sIgN8i3lwWzsNFzlvIErrp2/jBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Infrastructure\\HumanResources.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hursit\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\furiza.newtonsoft.json\\1.1.2\\furiza.newtonsoft.json.1.1.2.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -32,6 +33,7 @@
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
+    "C:\\Users\\Hursit\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\polly\\7.2.3\\polly.7.2.3.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Hursit\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

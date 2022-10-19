@@ -39,6 +39,18 @@
           "lib/net6.0/Castle.Core.dll": {}
         }
       },
+      "Furiza.Newtonsoft.Json/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "newtonsoft.json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -485,6 +497,15 @@
           "lib/net6.0/Moq.dll": {}
         }
       },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "Polly/7.2.3": {
         "type": "package",
         "compile": {
@@ -809,6 +830,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Furiza.Newtonsoft.Json": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppLogic.dll": {}
+        }
+      },
       "DevOps.AppLogic/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -849,6 +883,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AppLogic": "1.0.0",
           "HumanResources.Domain": "1.0.0",
           "Moq": "4.18.2"
         },
@@ -943,6 +978,19 @@
         "lib/netstandard2.1/Castle.Core.dll",
         "lib/netstandard2.1/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "Furiza.Newtonsoft.Json/1.1.2": {
+      "sha512": "o3tTR41Z6D9dkrSXENIoYPzE08xDARLsJEWtJd+C7iy4/EL1WlHb/25WWpYgmyVtCmwdMiehZz64k7il02earg==",
+      "type": "package",
+      "path": "furiza.newtonsoft.json/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "furiza.newtonsoft.json.1.1.2.nupkg.sha512",
+        "furiza.newtonsoft.json.nuspec",
+        "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Furiza.Newtonsoft.Json.xml"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -1823,6 +1871,45 @@
         "moq.png"
       ]
     },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
     "Polly/7.2.3": {
       "sha512": "DeCY0OFbNdNxsjntr1gTXHJ5pKUwYzp04Er2LLeN3g6pWhffsGuKVfMBLe1lw7x76HrPkLxKEFxBlpRxS2nDEQ==",
       "type": "package",
@@ -2447,6 +2534,11 @@
       "type": "project",
       "path": "../../../BuildingBlocks/Api/Api.csproj",
       "msbuildProject": "../../../BuildingBlocks/Api/Api.csproj"
+    },
+    "AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/AppLogic/AppLogic.csproj",
+      "msbuildProject": "../../../BuildingBlocks/AppLogic/AppLogic.csproj"
     },
     "DevOps.AppLogic/1.0.0": {
       "type": "project",

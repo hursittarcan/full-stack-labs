@@ -14,6 +14,18 @@
           "lib/net6.0/Castle.Core.dll": {}
         }
       },
+      "Furiza.Newtonsoft.Json/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "newtonsoft.json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {}
+        }
+      },
       "Moq/4.18.2": {
         "type": "package",
         "dependencies": {
@@ -24,6 +36,15 @@
         },
         "runtime": {
           "lib/net6.0/Moq.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.Diagnostics.EventLog/6.0.0": {
@@ -46,6 +67,19 @@
             "assetType": "runtime",
             "rid": "win"
           }
+        }
+      },
+      "AppLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Furiza.Newtonsoft.Json": "1.1.2"
+        },
+        "compile": {
+          "bin/placeholder/AppLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppLogic.dll": {}
         }
       },
       "Domain/1.0.0": {
@@ -98,6 +132,19 @@
         "readme.txt"
       ]
     },
+    "Furiza.Newtonsoft.Json/1.1.2": {
+      "sha512": "o3tTR41Z6D9dkrSXENIoYPzE08xDARLsJEWtJd+C7iy4/EL1WlHb/25WWpYgmyVtCmwdMiehZz64k7il02earg==",
+      "type": "package",
+      "path": "furiza.newtonsoft.json/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "furiza.newtonsoft.json.1.1.2.nupkg.sha512",
+        "furiza.newtonsoft.json.nuspec",
+        "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Furiza.Newtonsoft.Json.xml"
+      ]
+    },
     "Moq/4.18.2": {
       "sha512": "SjxKYS5nX6prcaT8ZjbkONh3vnh0Rxru09+gQ1a07v4TM530Oe/jq3Q4dOZPfo1wq0LYmTgLOZKrqRfEx4auPw==",
       "type": "package",
@@ -116,6 +163,45 @@
         "moq.4.18.2.nupkg.sha512",
         "moq.nuspec",
         "moq.png"
+      ]
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "System.Diagnostics.EventLog/6.0.0": {
@@ -149,6 +235,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "AppLogic/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/AppLogic/AppLogic.csproj",
+      "msbuildProject": "../../../BuildingBlocks/AppLogic/AppLogic.csproj"
+    },
     "Domain/1.0.0": {
       "type": "project",
       "path": "../../../../BuildingBlocks/Domain/Domain.csproj",
@@ -162,6 +253,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AppLogic >= 1.0.0",
       "HumanResources.Domain >= 1.0.0",
       "Moq >= 4.18.2"
     ]
@@ -193,6 +285,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\BuildingBlocks\\AppLogic\\AppLogic.csproj": {
+              "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\BuildingBlocks\\AppLogic\\AppLogic.csproj"
+            },
             "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj": {
               "projectPath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Domain\\HumanResources.Domain.csproj"
             }
