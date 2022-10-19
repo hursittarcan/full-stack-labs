@@ -8,10 +8,47 @@
     ".NETCoreApp,Version=v6.0": {
       "DevOps.AppLogic/1.0.0": {
         "dependencies": {
-          "DevOps.Domain": "1.0.0"
+          "AppLogic": "1.0.0",
+          "DevOps.Domain": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.2"
         },
         "runtime": {
           "DevOps.AppLogic.dll": {}
+        }
+      },
+      "Furiza.Newtonsoft.Json/1.1.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.922.41905"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "AppLogic/1.0.0": {
+        "dependencies": {
+          "Furiza.Newtonsoft.Json": "1.1.2"
+        },
+        "runtime": {
+          "AppLogic.dll": {}
         }
       },
       "DevOps.Domain/1.0.0": {
@@ -31,6 +68,32 @@
   },
   "libraries": {
     "DevOps.AppLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Furiza.Newtonsoft.Json/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o3tTR41Z6D9dkrSXENIoYPzE08xDARLsJEWtJd+C7iy4/EL1WlHb/25WWpYgmyVtCmwdMiehZz64k7il02earg==",
+      "path": "furiza.newtonsoft.json/1.1.2",
+      "hashPath": "furiza.newtonsoft.json.1.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pwXCZKaA7m5wgmCj49dW+H1RPSY7U62SKLTQYCcavf/k3Nyt/WnBgAjG4jMGnwy9rElfAZ2KvxvM5CJzJWG0hg==",
+      "path": "microsoft.extensions.logging.abstractions/6.0.2",
+      "hashPath": "microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "AppLogic/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

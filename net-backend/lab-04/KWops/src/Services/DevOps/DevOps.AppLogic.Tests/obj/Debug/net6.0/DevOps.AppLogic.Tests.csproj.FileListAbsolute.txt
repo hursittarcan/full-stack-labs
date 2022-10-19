@@ -232,3 +232,7 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Servic
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\obj\Debug\net6.0\DevOps.AppLogic.Tests.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\obj\Debug\net6.0\DevOps.AppLogic.Tests.genruntimeconfig.cache
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\obj\Debug\net6.0\ref\DevOps.AppLogic.Tests.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\bin\Debug\net6.0\Furiza.Newtonsoft.Json.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\bin\Debug\net6.0\AppLogic.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\Services\DevOps\DevOps.AppLogic.Tests\bin\Debug\net6.0\AppLogic.pdb
