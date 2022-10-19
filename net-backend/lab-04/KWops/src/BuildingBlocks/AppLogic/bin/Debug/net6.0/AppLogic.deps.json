@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AppLogic/1.0.0": {
+        "dependencies": {
+          "Furiza.Newtonsoft.Json": "1.1.2"
+        },
+        "runtime": {
+          "AppLogic.dll": {}
+        }
+      },
+      "Furiza.Newtonsoft.Json/1.1.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Furiza.Newtonsoft.Json/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o3tTR41Z6D9dkrSXENIoYPzE08xDARLsJEWtJd+C7iy4/EL1WlHb/25WWpYgmyVtCmwdMiehZz64k7il02earg==",
+      "path": "furiza.newtonsoft.json/1.1.2",
+      "hashPath": "furiza.newtonsoft.json.1.1.2.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    }
+  }
+}

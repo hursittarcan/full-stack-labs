@@ -132,3 +132,4 @@ C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\De
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\Debug\DevOps.AppLogic.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\Debug\DevOps.Domain.pdb
 C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-03\KWops\src\bin\Debug\DevOps.Infrastructure.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

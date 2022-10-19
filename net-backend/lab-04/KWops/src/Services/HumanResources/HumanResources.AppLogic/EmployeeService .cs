@@ -1,4 +1,5 @@
 ﻿using AppLogic.Events;
+using HumanResources.AppLogic.Events;
 using HumanResources.Domain;
 using System;
 using System.Collections.Generic;

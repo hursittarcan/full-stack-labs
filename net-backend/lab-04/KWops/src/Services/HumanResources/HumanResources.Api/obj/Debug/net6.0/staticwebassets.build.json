@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "u3APjOSXZIQt8KhOTEogpsXPG7OVXIMPllNjrQI9T0s=",
+  "Hash": "BXbPOIXl2dFLVQkdHvhpvg8tLiEHSjQUP38KBhRxPnc=",
   "Source": "HumanResources.Api",
   "BasePath": "_content/HumanResources.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-03\\KWops\\src\\BuildingBlocks\\Api\\Api.csproj",
+      "Identity": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\BuildingBlocks\\Api\\Api.csproj",
       "Version": 2,
       "Source": "Api",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",

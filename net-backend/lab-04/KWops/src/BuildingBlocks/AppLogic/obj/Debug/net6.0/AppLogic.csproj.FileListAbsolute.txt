@@ -1,0 +1,12 @@
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\bin\Debug\net6.0\AppLogic.deps.json
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\bin\Debug\net6.0\AppLogic.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\bin\Debug\net6.0\AppLogic.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.csproj.AssemblyReference.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.AssemblyInfoInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.AssemblyInfo.cs
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.csproj.CoreCompileInputs.cache
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\refint\AppLogic.dll
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\AppLogic.pdb
+C:\Users\Hursit\Desktop\LABS\full-stack-labs\net-backend\lab-04\KWops\src\BuildingBlocks\AppLogic\obj\Debug\net6.0\ref\AppLogic.dll

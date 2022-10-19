@@ -29,6 +29,17 @@
           }
         }
       },
+      "Furiza.Newtonsoft.Json/1.1.2": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Furiza.Newtonsoft.Json.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.CSharp/4.5.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
@@ -342,6 +353,14 @@
           }
         }
       },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
       "Polly/7.2.3": {
         "runtime": {
           "lib/netstandard2.0/Polly.dll": {
@@ -512,6 +531,14 @@
           }
         }
       },
+      "AppLogic/1.0.0": {
+        "dependencies": {
+          "Furiza.Newtonsoft.Json": "1.1.2"
+        },
+        "runtime": {
+          "AppLogic.dll": {}
+        }
+      },
       "DevOps.AppLogic/1.0.0": {
         "dependencies": {
           "DevOps.Domain": "1.0.0"
@@ -535,6 +562,7 @@
       },
       "HumanResources.AppLogic/1.0.0": {
         "dependencies": {
+          "AppLogic": "1.0.0",
           "HumanResources.Domain": "1.0.0",
           "Moq": "4.18.2"
         },
@@ -564,6 +592,13 @@
       "sha512": "sha512-31UJpTHOiWq95CDOHazE3Ub/hE/PydNWsJMwnEVTqFFP4WhAugwpaVGxzOxKgNeSUUeqS2W6lxV+q7u1pAOfXg==",
       "path": "castle.core/5.1.0",
       "hashPath": "castle.core.5.1.0.nupkg.sha512"
+    },
+    "Furiza.Newtonsoft.Json/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o3tTR41Z6D9dkrSXENIoYPzE08xDARLsJEWtJd+C7iy4/EL1WlHb/25WWpYgmyVtCmwdMiehZz64k7il02earg==",
+      "path": "furiza.newtonsoft.json/1.1.2",
+      "hashPath": "furiza.newtonsoft.json.1.1.2.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -754,6 +789,13 @@
       "path": "moq/4.18.2",
       "hashPath": "moq.4.18.2.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
     "Polly/7.2.3": {
       "type": "package",
       "serviceable": true,
@@ -865,6 +907,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "AppLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "DevOps.AppLogic/1.0.0": {
       "type": "project",
