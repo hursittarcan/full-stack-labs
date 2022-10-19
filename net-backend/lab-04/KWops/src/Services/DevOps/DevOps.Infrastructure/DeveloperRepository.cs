@@ -34,9 +34,9 @@ namespace DevOps.Infrastructure
             return await _devOpsContext.Developers.Where(d => d.TeamId == null).ToListAsync();
         }
 
-        public Task<Developer> GetByIdAsync(string number)
+        public async Task<Developer> GetByIdAsync(string number)
         {
-            throw new NotImplementedException();
+            return await _devOpsContext.Developers.FindAsync(number);
         }
     }
 }
