@@ -691,6 +691,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "AppLogic": "1.0.0",
           "DevOps.Domain": "1.0.0"
         },
         "compile": {

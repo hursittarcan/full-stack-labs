@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tIMHv+wSrhCJyD20aA6gThiBNsosAl14mU52+/UBor11V2PjsXXpI/+hFW9sIgN8i3lwWzsNFzlvIErrp2/jBg==",
+  "dgSpecHash": "CAi8t+phG6/JRbWjjw3obz9IKZXd6otGIADr01ByufWNU8yI0I7BF8/EvOIEzLWReGV5KbgDSEw188+7zs179Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Hursit\\Desktop\\LABS\\full-stack-labs\\net-backend\\lab-04\\KWops\\src\\Services\\HumanResources\\HumanResources.Infrastructure\\HumanResources.Infrastructure.csproj",
   "expectedPackageFiles": [
