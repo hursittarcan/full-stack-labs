@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Confession} from "./models/confession.model";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'template-frontend-h4-databinding-lab';
+
+  confessionList: Confession[] = [
+    new Confession('Mondays are the worst','PXL-Digital','anonymous', true),
+    new Confession('Angular beats VueJS any day','PXL-Digital','anonymous', true),
+    new Confession('Taxes taxes taxes','PXL-Business','anonymous', false),
+    new Confession('Am i an artist yet','PXL-MAD','banksy', false)
+  ]
 }

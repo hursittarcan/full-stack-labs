@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import {Confession} from "../../models/confession.model";
 
 @Component({
@@ -8,11 +8,11 @@ import {Confession} from "../../models/confession.model";
 })
 
 export class ConfessionItemComponent implements OnInit {
-  confession!: Confession;
+  @Input() confession!: Confession;
   constructor() { }
 
   ngOnInit(): void {
-    this.confession = new Confession('Mondays are the worst','PXL-Digital','anonymous',false);
+
   }
 
   addLike(): void {
