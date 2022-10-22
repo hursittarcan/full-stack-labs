@@ -15,4 +15,11 @@ export class ConfessionItemComponent implements OnInit {
     this.confession = new Confession('Mondays are the worst','PXL-Digital','anonymous',false);
   }
 
+  addLike(): void {
+    this.confession.likes++;
+  }
+
+  addDislike(): void {
+    this.confession.dislikes++;
+  }
 }
