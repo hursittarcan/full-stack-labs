@@ -9,6 +9,11 @@ import {Confession} from "./models/confession.model";
 export class AppComponent {
   title = 'template-frontend-h4-databinding-lab';
 
+  processAdd(event: Confession): void{
+    this.confessionList.push(event);
+    console.log(this.confessionList);
+  }
+
   confessionList: Confession[] = [
     new Confession('Mondays are the worst','PXL-Digital','anonymous', true),
     new Confession('Angular beats VueJS any day','PXL-Digital','anonymous', true),
